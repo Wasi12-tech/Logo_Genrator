@@ -184,7 +184,9 @@ h3{
 .Templates-Col img{
     width: 100%;
     display: block;
+    border-radius: 10px;
 }
+
 .layer{
     background: transparent;
     height: 100%;
@@ -214,7 +216,6 @@ h3{
     bottom: 49%;
     opacity: 1;
 }
-
 
 
 
