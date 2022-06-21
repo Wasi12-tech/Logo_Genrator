@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Generator</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="About"><img src="css/Bk.jpg"></a>
+            <div class="navlinks" id="navlinks">
+                <i class="bi bi-x" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index">Home</a></li>
+                    <li><a href="About">About-Us</a></li>
+                    <li><a href="Templates">Templates</a></li>
+                    <li><a href="editor">Editor</a></li>
+                    <li><a href="Feedback">Feedback</a></li>
+                    <li><a href="register">Register</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+        <h1>About-Us</h1>
+    </section>
+
+    <section class="row">
+        <div class="Help-col">
+            <h1>TO make easy and beautiful represtation with logo and templates</h1>
+            <p>
+                So, why is a logo important? Because it grabs attention, makes a 
+                strong first impression, is the foundation of your brand identity,
+                 is memorable, separates you from competition, fosters brand loyalty, and is expected by your audience
+                 A logo is a combination of text and visual imagery that serves two purposes. It tells people the name of the company and 
+                 it creates a visual symbol that represents your business. Some logos have powerful symbolic association connected to people's memory
+                </p>
+                <a href="" class="btn1 redBtn">Explore More</a>
+        </div>
+        <div class="about-col">
+            <img src="css/about.jpg">
+        </div>
+    </section>
+  
+    <!-- --------Footer--------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            A logo is a graphic mark, emblem, or symbol used to aid and promote public identification and recognition.
+             It may be of an abstract or figurative design or include the text <br> of the name it represents as in a wordmark.
+             What are logos used for?
+            
+            </p>
+            <div class="icons">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-linkedin"></i>
+
+            </div>
+    </section>
+
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
